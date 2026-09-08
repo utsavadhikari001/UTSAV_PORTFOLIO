@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Utsav Adhikari | Student • AI Enthusiast • Cloud Explorer</title>
+  <meta name="description" content="Portfolio of Utsav Adhikari – Student from Nepal with 80+ certificates, focused on Cloud, Cybersecurity & continuous learning.">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="progress-bar"></div>
+  <canvas id="space"></canvas>
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <header id="header">
+    <nav class="nav container">
+      <a href="#home" class="logo">Utsav<span>.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#tools">Tools</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content" id="heroContent">
+      <p class="hero-greeting reveal">Hello, I'm</p>
+      <h1 class="hero-name">Utsav Adhikari</h1>
+      <div class="hero-roles reveal">
+        <span id="typewriter"></span><span class="cursor-blink">|</span>
+      </div>
+      <p class="hero-desc reveal">
+        Student from Nepal passionate about technology and continuous growth. Currently pursuing Bachelor’s in BIT while building expertise in Cloud, Cybersecurity and Ethical Hacking.
+      </p>
+      <div class="hero-buttons reveal">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        <a href="https://github.com/utsavadhikari001" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="now-strip">
+    <div class="container now-row">
+      <div class="now-pill reveal"><span class="pulse"></span> Open to internships & remote work</div>
+      <div class="now-pill reveal">Focus: Cloud • Cybersecurity • Ethical Hacking</div>
+      <div class="now-pill reveal">Based in Nepal</div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">About Me</h2>
+      <p class="section-subtitle reveal">A quick look at who I am and what drives me</p>
+
+      <div class="stats-grid">
+        <div class="glass-card stat-card reveal">
+          <div class="glare"></div>
+          <div class="stat-number" data-target="80">0</div>
+          <div class="stat-label">Certificates</div>
+        </div>
+        <div class="glass-card stat-card reveal">
+          <div class="glare"></div>
+          <div class="stat-number" data-target="7">0</div>
+          <div class="stat-label">Languages</div>
+        </div>
+        <div class="glass-card stat-card reveal">
+          <div class="glare"></div>
+          <div class="stat-number" data-target="653">0</div>
+          <div class="stat-label">LeetCode Solved</div>
+          <div class="leetcode-breakdown">
+            <span>Easy 195</span>
+            <span>Med 282</span>
+            <span>Hard 176</span>
+          </div>
+          <a href="https://leetcode.com/u/Utsav_005/" target="_blank" class="leetcode-link">View Profile →</a>
+        </div>
+        <div class="glass-card stat-card reveal">
+          <div class="glare"></div>
+          <div class="stat-number" data-target="100">0</div>
+          <div class="stat-label">% Dedication</div>
+        </div>
+      </div>
+
+      <div class="about-grid">
+        <div class="glass-card reveal">
+          <div class="glare"></div>
+          <h3>My Journey</h3>
+          <p>I'm Utsav Adhikari, a dedicated student from Nepal currently pursuing a Bachelor’s degree in BIT. I focus on continuous learning through certifications, problem-solving, and practical projects.</p>
+          <p>I’m actively building a strong foundation while preparing for a future in Cloud technologies, Cybersecurity and Ethical Hacking.</p>
+        </div>
+        <div class="glass-card reveal">
+          <div class="glare"></div>
+          <h3>Core Values</h3>
+          <ul class="values-list">
+            <li><strong>Discipline</strong> — Consistency in learning</li>
+            <li><strong>Growth</strong> — Never stop improving</li>
+            <li><strong>Impact</strong> — Building useful solutions</li>
+            <li><strong>Curiosity</strong> — Exploring new technologies</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline">
+        <div class="glass-card timeline-card reveal">
+          <div class="glare"></div>
+          <span class="time-dot"></span>
+          <span class="time-label">Now</span>
+          <h3>Bachelor’s in BIT</h3>
+          <p>Building core CS + IT skills while stacking cloud, security and project experience.</p>
+        </div>
+        <div class="glass-card timeline-card reveal">
+          <div class="glare"></div>
+          <span class="time-dot"></span>
+          <span class="time-label">Completed</span>
+          <h3>80+ Certificates</h3>
+          <p>AI, cloud, full-stack and machine learning credentials from OpenAI, Anthropic and Great Learning.</p>
+        </div>
+        <div class="glass-card timeline-card reveal">
+          <div class="glare"></div>
+          <span class="time-dot"></span>
+          <span class="time-label">Practice</span>
+          <h3>653 LeetCode Problems</h3>
+          <p>Daily problem-solving across Easy, Medium and Hard to stay sharp on DSA.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Skills</h2>
+      <p class="section-subtitle reveal">Technologies I work with — levels shown without percentages for clearer understanding</p>
+
+      <div class="skills-grid">
+        <div class="glass-card skill-category reveal">
+          <div class="glare"></div>
+          <h3>Programming Languages</h3>
+          <div class="skill-row">
+            <div class="skill-header"><span class="skill-name">Python</span><span class="level-badge advanced">Advanced</span></div>
+            <div class="dots"><span class="filled"></span><span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span></div>
+            <div class="bar"><div class="bar-fill" data-level="4"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-header"><span class="skill-name">Java</span><span class="level-badge proficient">Proficient</span></div>
+            <div class="dots"><span class="filled"></span><span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span></div>
+            <div class="bar"><div class="bar-fill" data-level="4"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-header"><span class="skill-name">C</span><span class="level-badge solid">Solid</span></div>
+            <div class="dots"><span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span><span></span></div>
+            <div class="bar"><div class="bar-fill" data-level="3"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-header"><span class="skill-name">C++ & C#</span><span class="level-badge solid">Solid</span></div>
+            <div class="dots"><span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span><span></span></div>
+            <div class="bar"><div class="bar-fill" data-level="3"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-header"><span class="skill-name">Ruby</span><span class="level-badge solid">Solid</span></div>
+            <div class="dots"><span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span><span></span></div>
+            <div class="bar"><div class="bar-fill" data-level="3"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-header"><span class="skill-name">Rust</span><span class="level-badge comfortable">Comfortable</span></div>
+            <div class="dots"><span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span><span></span></div>
+            <div class="bar"><div class="bar-fill" data-level="3"></div></div>
+          </div>
+        </div>
+
+        <div class="glass-card skill-category reveal">
+          <div class="glare"></div>
+          <h3>Web & Backend</h3>
+          <div class="skill-row">
+            <div class="skill-header"><span class="skill-name">HTML, CSS & JavaScript</span><span class="level-badge proficient">Proficient</span></div>
+            <div class="dots"><span class="filled"></span><span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span></div>
+            <div class="bar"><div class="bar-fill" data-level="4"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-header"><span class="skill-name">React</span><span class="level-badge advanced">Advanced</span></div>
+            <div class="dots"><span class="filled"></span><span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span></div>
+            <div class="bar"><div class="bar-fill" data-level="4"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-header"><span class="skill-name">TypeScript</span><span class="level-badge proficient">Proficient</span></div>
+            <div class="dots"><span class="filled"></span><span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span></div>
+            <div class="bar"><div class="bar-fill" data-level="4"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-header"><span class="skill-name">Node.js</span><span class="level-badge proficient">Proficient</span></div>
+            <div class="dots"><span class="filled"></span><span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span></div>
+            <div class="bar"><div class="bar-fill" data-level="4"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-header"><span class="skill-name">MongoDB & SQL</span><span class="level-badge proficient">Proficient</span></div>
+            <div class="dots"><span class="filled"></span><span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span></div>
+            <div class="bar"><div class="bar-fill" data-level="4"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-header"><span class="skill-name">Tailwind CSS</span><span class="level-badge solid">Solid</span></div>
+            <div class="dots"><span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span><span></span></div>
+            <div class="bar"><div class="bar-fill" data-level="3"></div></div>
+          </div>
+        </div>
+
+        <div class="glass-card skill-category reveal">
+          <div class="glare"></div>
+          <h3>Cloud & DevOps</h3>
+          <div class="skill-row">
+            <div class="skill-header"><span class="skill-name">AWS</span><span class="level-badge solid">Solid</span></div>
+            <div class="dots"><span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span><span></span></div>
+            <div class="bar"><div class="bar-fill" data-level="3"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-header"><span class="skill-name">Azure</span><span class="level-badge solid">Solid</span></div>
+            <div class="dots"><span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span><span></span></div>
+            <div class="bar"><div class="bar-fill" data-level="3"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-header"><span class="skill-name">Docker</span><span class="level-badge solid">Solid</span></div>
+            <div class="dots"><span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span><span></span></div>
+            <div class="bar"><div class="bar-fill" data-level="3"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-header"><span class="skill-name">Cloud Fundamentals</span><span class="level-badge solid">Solid</span></div>
+            <div class="dots"><span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span><span></span></div>
+            <div class="bar"><div class="bar-fill" data-level="3"></div></div>
+          </div>
+        </div>
+
+        <div class="glass-card skill-category reveal">
+          <div class="glare"></div>
+          <h3>Soft Skills & Focus</h3>
+          <div class="tags">
+            <span class="tag">Public Speaking</span>
+            <span class="tag">Problem Solving</span>
+            <span class="tag">Continuous Learning</span>
+          </div>
+          <div class="learning-box">
+            <h4>Currently Learning</h4>
+            <p>Bachelor’s in BIT</p>
+            <h4>Building Toward</h4>
+            <p>Cloud • Cybersecurity • Ethical Hacking</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tools" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Tools I Use</h2>
+      <p class="section-subtitle reveal">Everyday stack for building, learning and shipping</p>
+      <div class="tools-stage">
+        <div class="tool-chip" data-z="40">VS Code</div>
+        <div class="tool-chip" data-z="18">GitHub</div>
+        <div class="tool-chip" data-z="32">Linux</div>
+        <div class="tool-chip" data-z="12">Git</div>
+        <div class="tool-chip" data-z="28">Postman</div>
+        <div class="tool-chip" data-z="20">Docker</div>
+        <div class="tool-chip" data-z="36">AWS Console</div>
+        <div class="tool-chip" data-z="14">Azure Portal</div>
+        <div class="tool-chip" data-z="24">MongoDB Compass</div>
+        <div class="tool-chip" data-z="30">LeetCode</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Projects</h2>
+      <p class="section-subtitle reveal">Things I’ve built and explored</p>
+      <div class="projects-grid two">
+        <div class="glass-card project-card reveal">
+          <div class="glare"></div>
+          <div class="project-icon">🌐</div>
+          <h3>Web Applications</h3>
+          <p>Responsive apps using React, Node.js, TypeScript and modern databases.</p>
+          <div class="tags">
+            <span class="tag">React</span><span class="tag">Node.js</span><span class="tag">MongoDB</span>
+          </div>
+          <a href="https://github.com/utsavadhikari001" target="_blank" class="btn btn-sm">View on GitHub</a>
+        </div>
+        <div class="glass-card project-card reveal">
+          <div class="glare"></div>
+          <div class="project-icon">🧩</div>
+          <h3>Problem Solving</h3>
+          <p>650+ LeetCode problems solved across Easy, Medium and Hard.</p>
+          <div class="tags">
+            <span class="tag">Algorithms</span>
+            <span class="tag">Data Structures</span>
+          </div>
+          <a href="https://leetcode.com/u/Utsav_005/" target="_blank" class="btn btn-sm">View Profile</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certificates" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Certificates</h2>
+      <p class="section-subtitle reveal">80+ verified certifications</p>
+      <div class="certs-grid">
+        <div class="glass-card cert-card reveal"><div class="glare"></div><span class="cert-badge">OpenAI</span><h3>AI Foundations</h3><p>Foundational AI knowledge and practical literacy.</p><a href="https://academy.openai.com/home/certificate/0j33t20e09" target="_blank" class="btn btn-sm">Verify</a></div>
+        <div class="glass-card cert-card reveal"><div class="glare"></div><span class="cert-badge">OpenAI</span><h3>Agents & Workflows</h3><p>Building useful agentic applications.</p><a href="https://academy.openai.com/public/certificate/gon3i6os10" target="_blank" class="btn btn-sm">Verify</a></div>
+        <div class="glass-card cert-card reveal"><div class="glare"></div><span class="cert-badge">Anthropic</span><h3>Claude + Vertex AI</h3><p>Claude on Google Cloud’s Vertex AI.</p><a href="https://verify.skilljar.com/c/wjybytqa23gy" target="_blank" class="btn btn-sm">Verify</a></div>
+        <div class="glass-card cert-card reveal"><div class="glare"></div><span class="cert-badge">Great Learning</span><h3>Machine Learning</h3><p>ML algorithms with TensorFlow & Python.</p><a href="https://www.mygreatlearning.com/certificate/7507035" target="_blank" class="btn btn-sm">Verify</a></div>
+        <div class="glass-card cert-card reveal"><div class="glare"></div><span class="cert-badge">Great Learning</span><h3>Azure Fundamentals</h3><p>Cloud fundamentals and Azure infrastructure.</p><a href="https://www.mygreatlearning.com/certificate/DNXJEJLG" target="_blank" class="btn btn-sm">Verify</a></div>
+        <div class="glass-card cert-card reveal"><div class="glare"></div><span class="cert-badge">Great Learning</span><h3>Full Stack Java</h3><p>End-to-end development with Java & Spring Boot.</p><a href="https://www.mygreatlearning.com/certificate/MOLIVOHK" target="_blank" class="btn btn-sm">Verify</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Get In Touch</h2>
+      <p class="section-subtitle reveal">Open to opportunities and conversations</p>
+      <div class="contact-grid">
+        <div class="glass-card reveal">
+          <div class="glare"></div>
+          <h3>Contact Info</h3>
+          <div class="contact-item"><strong>Email</strong><a href="mailto:utshavadhiakri@gmail.com">utshavadhiakri@gmail.com</a></div>
+          <div class="contact-item"><strong>GitHub</strong><a href="https://github.com/utsavadhikari001" target="_blank">utsavadhikari001</a></div>
+          <div class="contact-item"><strong>LinkedIn</strong><a href="https://www.linkedin.com/in/utsav-adhikari-095694327/" target="_blank">Utsav Adhikari</a></div>
+          <div class="contact-item"><strong>Location</strong><span>Nepal • Open to remote</span></div>
+        </div>
+        <div class="glass-card reveal">
+          <div class="glare"></div>
+          <h3>Send a Message</h3>
+          <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="subject" placeholder="Subject" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Utsav Adhikari. Built with focus and continuous learning.</p>
+      <div class="footer-links">
+        <a href="https://github.com/utsavadhikari001" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/utsav-adhikari-095694327/" target="_blank">LinkedIn</a>
+        <a href="mailto:utshavadhiakri@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="backToTop" aria-label="Back to top">↑</button>
+  <script src="main.js"></script>
+</body>
+</html>
